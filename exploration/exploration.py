@@ -30,4 +30,5 @@ for fichier in os.listdir(dossier_images):
 # Combiner toutes les données dans un seul DataFrame
 df_combined = pd.concat(data_list, ignore_index=True)
 
-print(df_combined)
+print(df_combined['image_id'].head())
+df_combined.info()
