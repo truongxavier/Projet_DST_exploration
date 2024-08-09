@@ -32,3 +32,4 @@ df_combined = pd.concat(data_list, ignore_index=True)
 
 print(df_combined['image_id'].head())
 df_combined.info()
+df_combined.head(1)
