@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import os
 
+# modification essai
 # Chemin du dossier contenant les images TIFF
 dossier_images = '/home/kory/Projet_DST_exploration/exploration/data'
 
