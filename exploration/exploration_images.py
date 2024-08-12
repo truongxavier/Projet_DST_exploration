@@ -2,10 +2,10 @@
 from PIL import Image
 import numpy as np
 import pandas as pd
-import os
+import os 
 
 # Chemin du dossier contenant les images TIFF
-dossier_images = '/home/xavier/code/truongxavier/Projet_DST_exploration/exploration/data'
+dossier_images = 'C:/Users/HP/OneDrive/Bureau/FormationDataScient/Projet/ImageAndXML_Data-20240808T145037Z-001/ImageAndXML_Data'
 
 # Liste pour stocker les données des images
 data_list = []
@@ -33,3 +33,4 @@ df_combined = pd.concat(data_list, ignore_index=True)
 print(df_combined['image_id'].head())
 df_combined.info()
 df_combined.head(1)
+
